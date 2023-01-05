@@ -1,0 +1,126 @@
+$primary-color: #3b3b3b;
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: $primary-color;
+}
+
+#enter-employee-form {
+  margin-bottom: 32px;
+}
+
+#name-input {
+    width: 200px;
+    height: 35px;
+    box-sizing: border-box;
+    padding: 0px 16px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+
+#name-submit-btn {
+    height: 35px;
+    width: 150px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: green;
+    color: white;
+    font-weight: bold;
+}
+
+.app {
+    box-sizing: border-box;
+    padding: 32px;
+}
+
+.control-container {
+    margin-bottom: 32px;
+}
+
+.control-btn {
+    height: 35px;
+    width: 150px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: green;
+    color: white;
+    font-weight: bold;
+}
+
+.ceo{
+    width: 100%;
+    height: 45px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    font-weight: 500;
+    margin-bottom: 2px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    &--sub {
+        margin-left: 45px;
+    }
+}
+
+.sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 32px;
+}
+
+
+.e-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 4px;
+}
+
+
+.employee {
+    width: 200px;
+    min-width: 200px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 2px;
+    color: black;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.ordinates {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 4px;
+}
