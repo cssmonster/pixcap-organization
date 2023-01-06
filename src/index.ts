@@ -118,14 +118,14 @@ $(document).ready(function(){
         app.redo()
         setTimeout(() => {
             renderTree(app.ceo);
-        }, 200)
+        }, 500)
     })
 
     $("#undo").click((e) => {
         app.undo()
         setTimeout(() => {
             renderTree(app.ceo);
-        }, 200)
+        }, 500)
     })
 });
 
