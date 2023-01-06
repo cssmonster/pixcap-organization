@@ -1,4 +1,5 @@
-# typescript-jquery-webpack
+# LIVE DEMO
+https://dist-cssmonster.vercel.app/
 
 ## install all packages
 npm i
