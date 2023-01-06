@@ -116,16 +116,12 @@ $(document).ready(function(){
 
     $("#redo").click((e) => {
         app.redo()
-        setTimeout(() => {
-            renderTree(app.ceo);
-        }, 500)
+        renderTree(app.ceo);
     })
 
     $("#undo").click((e) => {
         app.undo()
-        setTimeout(() => {
-            renderTree(app.ceo);
-        }, 500)
+        renderTree(app.ceo);
     })
 });
 
